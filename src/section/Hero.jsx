@@ -1,8 +1,9 @@
 import {words} from "../constants/index.js";
 import Button from "../components/Button.jsx";
-import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
+import AnimatedCounter from "../components/AnimatedCounter.jsx";
 
 const Hero = () => {
   useGSAP(()=>{
@@ -52,14 +53,13 @@ const Hero = () => {
             </header>
 
             {/* RIGHT PART - #D MODEL */}
-            <figure>
+            {/* <figure>
                 <div className="hero-3d-layout">
                     <HeroExperience />
                 </div>
-            </figure>
-
-
+            </figure> */}
         </div>
+        <AnimatedCounter />      
     </section>
   )
 }
