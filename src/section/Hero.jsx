@@ -34,7 +34,7 @@ const Hero = () => {
                                     {
                                         words.map((word) => (
                                             <span key={word.text} className="flex items-center md:gap-3 gap-1 pb-2">
-                                                <img className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50" src={word.img} alt={word.text} />
+                                                <img className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50" src={word.imgPath} alt={word.text} />
                                                 <span className="text">{word.text}</span>
                                             </span>    
                                         ))
@@ -42,11 +42,11 @@ const Hero = () => {
                                 </span>
                             </span>
                         </h1>
-                        <h1>Into Real prokects</h1>
-                        <h1>That Deliver Results</h1>
+                        <h1>Into Real Project</h1>
+                        <h1>That Drive Performance and Impact</h1>
                     </div>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        Hi, I am piyush, a full stack developer with a passion for creating innovative solutions. Let's work together to bring your ideas to life!
+                        Hi, I am Piyush Ranjan Pandey, 🚀 I'm a Software Engineer with 3+ years of experience building high-performance full-stack applications using React, Node.js,Express.js and MongoDB. I specialize in creating scalable UIs, optimizing backend systems, and delivering real-time data-driven dashboards. Passionate about clean code, performance, and continuous learning.
                     </p>
                     <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my work"></Button>
                 </div>
