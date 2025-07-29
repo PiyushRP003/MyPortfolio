@@ -32,34 +32,52 @@ const logoIconsList = [
     imgPath: "/images/logos/javascript.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/typescript.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/react.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/redux.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/vuejs.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/html.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/css.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/boostrap.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "/images/logos/nodejs.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "/images/logos/mongodb.svg",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/mysql.svg",
+  },
+  {
+    imgPath: "/images/logos/redis.svg",
+  },
+  {
+    imgPath: "/images/logos/bitbucketV2.svg",
+  },
+  {
+    imgPath: "/images/logos/github.svg",
+  },
+  {
+    imgPath: "/images/logos/git.svg",
+  },
+  {
+    imgPath: "/images/logos/npm.svg",
+  },
+  {
+    imgPath: "/images/logos/vscode.svg",
   },
 ];
 
@@ -140,9 +158,9 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/public/images/synergy.png",
-    logoPath: "/public/images/synergy.png",
+      "Gained hands-on experience with GitHub Copilot, Cursor.ai, and other AI tools through be10x Workshop.Learned to integrate AI-driven automation, smart analytics, and productivity frameworks into software development workflows.",
+    imgPath: "images/be10x.png",
+    logoPath: "images/synergy.png",
     title: "Software Developer",
     date: "Sep 2024 - Present",
     responsibilities: [
@@ -154,9 +172,8 @@ const expCards = [
     ],
   },
   {
-    review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/public/images/synergy.png",
+    review: "Completed the 'Namaste React' course by Akshay Saini.",
+    imgPath: "/public/images/namaste.png",
     logoPath: "/public/images/synergy.png",
     title: "Junior Software Developer",
     date: "Sep 2023 - Sep 2024",
@@ -169,7 +186,7 @@ const expCards = [
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "Recognized for strong leadership and for mentoring junior developers, fostering team growth and accelerating onboarding.",
     imgPath: "/public/images/synergy.png",
     logoPath: "/public/images/synergy.png",
     title: "Software Intern",
@@ -202,13 +219,13 @@ const expLogos = [
 const socialImgs = [
   {
     name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/public/images/insta.png",
+    url: "https://leetcode.com/u/piyushranjanpandey008/",
+    imgPath: "/public/images/leetcode.png",
   },
   {
     name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/public/images/fb.png",
+    url: "https://github.com/PiyushRP003",
+    imgPath: "/public/images/logos/github.png",
   },
   {
     name: "x",
